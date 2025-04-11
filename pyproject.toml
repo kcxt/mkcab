@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkcab"
+version = "0.0.1"
+description = "Build LVFS compatible CAB archives for U-Boot"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["cabarchive", "jinja2"]
+keywords = ["lvfs", "fwupd", "u-boot"]
+
+authors = [{ name = "Caleb Connolly", email = "caleb.connolly@linaro.org" }]
+maintainers = [
+  { name = "Caleb Connolly", email = "caleb.connolly@linaro.org" },
+]
+
+[project.scripts]
+mkcab = "mkcab:main"
