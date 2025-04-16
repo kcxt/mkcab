@@ -64,7 +64,7 @@ image, whatever) and the GUID you generated.
 Finally, we can embed this all into a LVFS compatible .cab file with:
 
 ```sh
-$ mkcab .output/u-boot.mbn FDA31DED-6E9C-5C44-BE37-B46994BEB543 qcs6490-rb3gen2 "RB3 Gen 2" 2025.04-1
+$ mkcab rb3g2-uboot.capsule FDA31DED-6E9C-5C44-BE37-B46994BEB543 qcs6490-rb3gen2 "RB3 Gen 2" 2025.04-1
 Created u-boot-qcs6490-rb3gen2.cab
 ```
 
