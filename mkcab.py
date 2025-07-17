@@ -81,3 +81,6 @@ def main():
         f.write(arc.save())
 
     print(f"Created u-boot-{args.codename}.cab")
+
+if __name__ == '__main__':
+    main()
