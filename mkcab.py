@@ -1,4 +1,3 @@
-
 import jinja2
 import cabarchive
 import sys
