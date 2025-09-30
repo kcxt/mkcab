@@ -11,9 +11,9 @@ requires-python = ">=3.9"
 dependencies = ["cabarchive", "jinja2"]
 keywords = ["lvfs", "fwupd", "u-boot"]
 
-authors = [{ name = "Caleb Connolly", email = "caleb.connolly@linaro.org" }]
+authors = [{ name = "Casey Connolly", email = "casey.connolly@linaro.org" }]
 maintainers = [
-  { name = "Caleb Connolly", email = "caleb.connolly@linaro.org" },
+  { name = "Casey Connolly", email = "casey.connolly@linaro.org" },
 ]
 
 [project.scripts]
